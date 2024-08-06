@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.status {
+  color: red;
+}
+
+.online {
+  color: green;
+}
